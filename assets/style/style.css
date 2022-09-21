@@ -44,6 +44,12 @@ header {
     box-shadow: -2px 1px 13px 4px #606060;
     align-items: center;
     padding: 10px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 2692px;
+    padding-right: 150px;
 }        
 
 li {
@@ -71,6 +77,10 @@ i {
 }
 
       /* MAIN  */
+
+    main {
+        padding-bottom: 90px;
+    }  
 
     .card {
         width: calc(100%/3);
@@ -144,4 +154,13 @@ i {
         font-weight: bold;
         margin-top: 540px;
         margin-left: 0px;
+    }
+
+    .heart {
+    padding: 7px 9px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left:405px;
+    color: black;
+    background-color:black;
     }
