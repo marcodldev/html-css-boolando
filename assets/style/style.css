@@ -34,6 +34,10 @@
     width: 60%
    }
 
+   .abs {
+    position: absolute;
+   }
+
         /* HEADER  */
 header {
     background-color: rgb(255,105,0);
@@ -79,11 +83,55 @@ i {
         position: absolute;
     }
 
-    .price {
+    .name {
         position: absolute;
-        margin-top: 470px;
+        margin-top: 650px;
+        margin-left: 2px;
     }
 
     .sec2 {
-        margin-top: 460px;
+        margin-top: 700px;
+    }
+
+    .imga {
+
+    }
+
+    .imgb {
+        display: none;
+    }
+
+    .hover:hover .imga {
+        display: none;
+    }
+
+    .hover:hover .imgb {
+        display: block;
+        object-fit: contain;
+    }
+
+    .price1 {
+        color: red;
+        font-weight: bold;
+    }
+
+    .price2 {
+        text-decoration: line-through;
+    }
+
+    .label1 {
+        background-color: red;
+        padding: 7px 9px;
+        color: white;
+        font-weight: bold;
+        margin-top: 540px;
+    }
+
+    .label2 {
+        background-color: green;
+        padding: 7px 9px;
+        color: white;
+        font-weight: bold;
+        margin-top: 540px;
+        margin-left: 60px;
     }
