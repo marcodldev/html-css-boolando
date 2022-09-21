@@ -6,3 +6,42 @@
     box-sizing: border-box;
  }
  
+   /*    UTILITY   */
+
+.flex {
+    display: flex;
+   }
+   
+    .f-space-between {
+    justify-content: space-between
+   }
+   
+   .f-space-around {
+    justify-content: space-around
+   }
+   
+   .container-80 { 
+    margin: 0 auto;
+    width: 80%
+   }
+
+        /* HEADER  */
+header {
+    background-color: rgb(255,105,0);
+    box-shadow: -2px 1px 13px 4px #606060;
+    align-items: center;
+    padding: 10px;
+}        
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+header div {
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
