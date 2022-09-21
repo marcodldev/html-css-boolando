@@ -71,8 +71,19 @@ i {
     .card {
         width: calc(100%/3);
         margin: 30px;
+        position: relative;
     }
 
     .card img {
         width: 100%;
+        position: absolute;
+    }
+
+    .price {
+        position: absolute;
+        margin-top: 470px;
+    }
+
+    .sec2 {
+        margin-top: 460px;
     }
