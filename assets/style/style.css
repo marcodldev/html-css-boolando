@@ -38,6 +38,9 @@ html {
     position: absolute;
 }
 
+.l-height {
+    line-height: 30px;
+}
 /* HEADER  */
 header {
     background-color: rgb(255, 105, 0);
@@ -94,16 +97,6 @@ main {
 
 .name {
     position: absolute;
-    margin-top: 650px;
-    margin-left: 2px;
-}
-
-.sec2 {
-    margin-top: 700px;
-}
-
-.imga {
-    pos
 }
 
 .imgb {
@@ -169,10 +162,21 @@ main {
 section {
     margin-top: 9%;
 }
-/* FOOTER  */
+    /* FOOTER  */
 
-/* footer {
-        background-color: #606060;
+ footer {
+        background-color: #1a1a1a;
         align-items:flex-end;
         display: block;
-    } */
+        color: white;
+        padding: 1%;
+    }
+
+   footer li {
+    display: inline;
+    margin: 0;
+   }
+   
+   footer h4 {
+    margin-bottom: 10px;
+   }
